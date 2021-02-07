@@ -4,14 +4,15 @@ from logs.logger import get_logger
 
 exp_version = os.getenv('exp_version')
 
+
 def get_pred_result(model, train_x, train_y, test_x):
     from sklearn.model_selection import KFold
     preds = []
     preds_test = []
     va_idxes = []
-    
+
     kf = KFold(n_splits=4, shuffle=True, random_state=1)
-    
+
     for tr_idx, va_idx in kf.split(train_x):
         tr_x, va_x = train_x.iloc[tr_idx], train_x.iloc[va_idx]
         tr_y, va_y = train_y.iloc[tr_idx], train_y.iloc[va_idx]
@@ -21,12 +22,12 @@ def get_pred_result(model, train_x, train_y, test_x):
         pred_test = model.predict(test_x)
         preds_test.append(pred_test)
         va_idxes.append(va_idx)
-    
+
     va_idxes = np.concatenate(va_idxes)
     preds = np.concatenate(preds)
     order = np.argsort(va_idxes)
     pred_train = preds[order]
-    
+
     return pred_train, preds_test
 
 
@@ -42,7 +43,7 @@ def get_acc_and_logloss(pred_y, train_y, logging=False):
         logger.info(f'logloss: {log_loss}')
     else:
         print(f'data size: {len(train_y)}')
-        print(f'correct predictions: {int(len(train_y)*accuracy_score)}')
+        print(f'correct predictions: {int(len(train_y) * accuracy_score)}')
         print(f'accuracy: {accuracy_score:.10f}')
         print(f'logloss: {log_loss:.10f}')
 
