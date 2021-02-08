@@ -1,6 +1,7 @@
 from pathlib import Path
 from logging import getLogger, Formatter, FileHandler, StreamHandler, INFO, DEBUG
 
+
 def create_logger(exp_version):
     path = Path(f'../logs/log_{exp_version}.log')
     log_file = path.resolve()

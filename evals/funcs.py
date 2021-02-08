@@ -39,8 +39,11 @@ def get_acc_and_logloss(pred_y, train_y, logging=False):
 
     if logging:
         logger = get_logger(exp_version)
-        logger.info(f'accuracy: {accuracy_score}')
-        logger.info(f'logloss: {log_loss}')
+        logger.info(f'ACCURACY: {accuracy_score}')
+        logger.info(f'LOGLOSS: {log_loss}')
+        logger.info(f'data size: {len(train_y)}')
+        logger.info(f'correct predictions: {round(len(train_y) * accuracy_score)}')
+        logger.info('')
     else:
         print(f'data size: {len(train_y)}')
         print(f'correct predictions: {int(len(train_y) * accuracy_score)}')
