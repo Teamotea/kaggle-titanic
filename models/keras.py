@@ -1,4 +1,5 @@
 from keras import Sequential
+from keras.optimizers import Adam
 from logs.logger import get_logger
 import os
 
@@ -9,6 +10,8 @@ class ModelKeras:
         self.batch_size = None
         self.epochs = None
         self.verbose = None
+        self.learning_rate = None
+        self.status = {'COMPILE': False, 'SET_FIT_PARAMS': False}
         exp_version = os.getenv('exp_version')
         if logging:
             logger = get_logger(exp_version)
@@ -18,16 +21,24 @@ class ModelKeras:
         for layer in layers:
             self.model.add(layer)
 
-    def compile(self, optimizer='adam', metrics=['accuracy']):
-        self.model.compile(loss='binary_crossentropy', optimizer=optimizer, metrics=metrics)
+    def compile(self, learning_rate=0.001, metrics=['accuracy']):
+        opt = Adam(learning_rate=learning_rate)
+        self.model.compile(loss='binary_crossentropy', optimizer=opt, metrics=metrics)
+        self.status.update({'COMPILE': True})
 
-    def set_fit_params(self, batch_size=None, epoch=1, verbose=1):
+    def set_fit_params(self, batch_size=None, epochs=1, verbose=1):
         self.batch_size = batch_size
-        self.epochs = epoch
+        self.epochs = epochs
         self.verbose = verbose
+        self.status.update({'SET_FIT_PARAMS': True})
 
-    def fit(self, tr_x, tr_y, va_x, va_y):
-        self.model.fit(tr_x, tr_y, batch_size=self.batch_size, epochs=self.epochs, validation_data=(va_x, va_y), verbose=self.verbose)
+    def fit(self, tr_x, tr_y, va_x, va_y, learning_rate=None, batch_size=None, epochs=None, verbose=None):
+        if not self.status['COMPILE']:
+            self.compile(learning_rate=learning_rate)
+        if not self.status['SET_FIT_PARAMS']:
+            self.set_fit_params(batch_size=batch_size, epochs=epochs, verbose=verbose)
+        self.model.fit(tr_x, tr_y, batch_size=self.batch_size, epochs=self.epochs,
+                       validation_data=(va_x, va_y), verbose=self.verbose)
 
     def predict(self, x):
         pred = self.model.predict(x)
