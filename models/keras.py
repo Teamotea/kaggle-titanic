@@ -12,6 +12,7 @@ class ModelKeras:
         self.verbose = None
         self.learning_rate = None
         self.status = {'COMPILE': False, 'SET_FIT_PARAMS': False}
+        self.initial_weights = None
         exp_version = os.getenv('exp_version')
         if logging:
             logger = get_logger(exp_version)
@@ -20,6 +21,7 @@ class ModelKeras:
     def add_layers(self, *layers):
         for layer in layers:
             self.model.add(layer)
+        self.initial_weights = self.model.get_weights()
 
     def compile(self, learning_rate=0.001, metrics=['accuracy']):
         opt = Adam(learning_rate=learning_rate)
@@ -37,6 +39,8 @@ class ModelKeras:
             self.compile(learning_rate=learning_rate)
         if not self.status['SET_FIT_PARAMS']:
             self.set_fit_params(batch_size=batch_size, epochs=epochs, verbose=verbose)
+        self.model.set_weights(self.initial_weights)
+        # print(self.model.get_weights())
         self.model.fit(tr_x, tr_y, batch_size=self.batch_size, epochs=self.epochs,
                        validation_data=(va_x, va_y), verbose=self.verbose)
 
