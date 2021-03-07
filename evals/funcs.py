@@ -7,7 +7,7 @@ def get_pred_result(model, train_x, train_y):
     from sklearn.model_selection import KFold
     preds = []
     va_idxes = []
-    kf = KFold(n_splits=4, shuffle=True, random_state=1)
+    kf = KFold(n_splits=4, shuffle=True, random_state=0)
 
     for tr_idx, va_idx in kf.split(train_x):
         tr_x, va_x = train_x.iloc[tr_idx], train_x.iloc[va_idx]

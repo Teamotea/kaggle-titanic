@@ -5,7 +5,7 @@ import os
 
 
 class ModelKeras:
-    def __init__(self, logging):
+    def __init__(self, logging, model_name=None):
         self.model = Sequential()
         self.batch_size = None
         self.epochs = None
@@ -13,10 +13,14 @@ class ModelKeras:
         self.learning_rate = None
         self.status = {'COMPILE': False, 'SET_FIT_PARAMS': False}
         self.initial_weights = None
+        self.params_to_log = {'model_name': model_name}
         exp_version = os.getenv('exp_version')
         if logging:
             logger = get_logger(exp_version)
             logger.info('=== NN KERAS MODEL ===')
+            if model_name is not None:
+                pass
+                logger.info(f'PARAMS: {self.params_to_log}')
 
     def add_layers(self, *layers):
         for layer in layers:
@@ -40,7 +44,6 @@ class ModelKeras:
         if not self.status['SET_FIT_PARAMS']:
             self.set_fit_params(batch_size=batch_size, epochs=epochs, verbose=verbose)
         self.model.set_weights(self.initial_weights)
-        # print(self.model.get_weights())
         self.model.fit(tr_x, tr_y, batch_size=self.batch_size, epochs=self.epochs,
                        validation_data=(va_x, va_y), verbose=self.verbose)
 

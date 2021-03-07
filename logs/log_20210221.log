@@ -1,0 +1,212 @@
+[INFO] 2021-02-21 17:57:15,665 >>	=== NN KERAS MODEL ===
+[INFO] 2021-02-21 17:57:15,666 >>	PARAMS: {'model_name': 'with_Embarked_C, with_Pclass_1, dropout:0.2, epochs: 10, learning_rate:0.001'}
+[INFO] 2021-02-21 17:57:23,259 >>	ACCURACY: 0.797979797979798
+[INFO] 2021-02-21 17:57:23,260 >>	LOGLOSS: 0.4464031032910602
+[INFO] 2021-02-21 17:57:23,261 >>	data size: 891
+[INFO] 2021-02-21 17:57:23,261 >>	correct predictions: 711
+[INFO] 2021-02-21 17:57:23,262 >>	
+[INFO] 2021-02-21 17:57:33,979 >>	=== NN KERAS MODEL ===
+[INFO] 2021-02-21 17:57:33,980 >>	PARAMS: {'model_name': 'with_Embarked_C, with_Pclass_1, dropout:0.2, epochs: 10, learning_rate:0.001'}
+[INFO] 2021-02-21 17:57:38,373 >>	ACCURACY: 0.797979797979798
+[INFO] 2021-02-21 17:57:38,373 >>	LOGLOSS: 0.4498015073390404
+[INFO] 2021-02-21 17:57:38,374 >>	data size: 891
+[INFO] 2021-02-21 17:57:38,375 >>	correct predictions: 711
+[INFO] 2021-02-21 17:57:38,376 >>	
+[INFO] 2021-02-21 17:57:51,112 >>	=== NN KERAS MODEL ===
+[INFO] 2021-02-21 17:57:51,113 >>	PARAMS: {'model_name': 'with_Embarked_C, with_Pclass_1, dropout:0.2, epochs: 10, learning_rate:0.001'}
+[INFO] 2021-02-21 17:57:55,612 >>	ACCURACY: 0.8249158249158249
+[INFO] 2021-02-21 17:57:55,613 >>	LOGLOSS: 0.43302385066374594
+[INFO] 2021-02-21 17:57:55,613 >>	data size: 891
+[INFO] 2021-02-21 17:57:55,614 >>	correct predictions: 735
+[INFO] 2021-02-21 17:57:55,614 >>	
+[INFO] 2021-02-21 18:01:32,055 >>	=== NN KERAS MODEL ===
+[INFO] 2021-02-21 18:01:32,057 >>	PARAMS: {'model_name': 'with_Embarked_C, with_Pclass_1, dropout:0.2, epochs: 10, learning_rate:0.001'}
+[INFO] 2021-02-21 18:01:36,399 >>	ACCURACY: 0.8024691358024691
+[INFO] 2021-02-21 18:01:36,400 >>	LOGLOSS: 0.4459937217981919
+[INFO] 2021-02-21 18:01:36,401 >>	data size: 891
+[INFO] 2021-02-21 18:01:36,402 >>	correct predictions: 715
+[INFO] 2021-02-21 18:01:36,403 >>	
+[INFO] 2021-02-21 18:01:47,152 >>	=== NN KERAS MODEL ===
+[INFO] 2021-02-21 18:01:47,152 >>	PARAMS: {'model_name': 'with_Embarked_C, with_Pclass_1, dropout:0.2, epochs: 10, learning_rate:0.001'}
+[INFO] 2021-02-21 18:01:52,948 >>	ACCURACY: 0.8103254769921436
+[INFO] 2021-02-21 18:01:52,949 >>	LOGLOSS: 0.4410670076917092
+[INFO] 2021-02-21 18:01:52,950 >>	data size: 891
+[INFO] 2021-02-21 18:01:52,951 >>	correct predictions: 722
+[INFO] 2021-02-21 18:01:52,951 >>	
+[INFO] 2021-02-21 18:02:01,811 >>	=== NN KERAS MODEL ===
+[INFO] 2021-02-21 18:02:01,812 >>	PARAMS: {'model_name': 'with_Embarked_C, with_Pclass_1, dropout:0.2, epochs: 10, learning_rate:0.001'}
+[INFO] 2021-02-21 18:02:05,345 >>	ACCURACY: 0.797979797979798
+[INFO] 2021-02-21 18:02:05,345 >>	LOGLOSS: 0.44640999329333875
+[INFO] 2021-02-21 18:02:05,346 >>	data size: 891
+[INFO] 2021-02-21 18:02:05,347 >>	correct predictions: 711
+[INFO] 2021-02-21 18:02:05,347 >>	
+[INFO] 2021-02-21 18:02:37,389 >>	=== NN KERAS MODEL ===
+[INFO] 2021-02-21 18:02:37,390 >>	PARAMS: {'model_name': 'with_Embarked_C, with_Pclass_1, dropout:0.2, epochs: 10, learning_rate:0.001'}
+[INFO] 2021-02-21 18:02:41,668 >>	ACCURACY: 0.8181818181818182
+[INFO] 2021-02-21 18:02:41,669 >>	LOGLOSS: 0.433840305490344
+[INFO] 2021-02-21 18:02:41,670 >>	data size: 891
+[INFO] 2021-02-21 18:02:41,670 >>	correct predictions: 729
+[INFO] 2021-02-21 18:02:41,671 >>	
+[INFO] 2021-02-21 18:03:02,654 >>	=== NN KERAS MODEL ===
+[INFO] 2021-02-21 18:03:02,655 >>	PARAMS: {'model_name': 'with_Embarked_C, with_Pclass_1, dropout:0.2, epochs: 10, learning_rate:0.001'}
+[INFO] 2021-02-21 18:03:08,031 >>	ACCURACY: 0.8181818181818182
+[INFO] 2021-02-21 18:03:08,032 >>	LOGLOSS: 0.441934372604418
+[INFO] 2021-02-21 18:03:08,033 >>	data size: 891
+[INFO] 2021-02-21 18:03:08,034 >>	correct predictions: 729
+[INFO] 2021-02-21 18:03:08,034 >>	
+[INFO] 2021-02-21 18:03:37,322 >>	=== NN KERAS MODEL ===
+[INFO] 2021-02-21 18:03:37,323 >>	PARAMS: {'model_name': 'with_Embarked_C, with_Pclass_1, dropout:0.2, epochs: 10, learning_rate:0.001'}
+[INFO] 2021-02-21 18:03:44,161 >>	ACCURACY: 0.8294051627384961
+[INFO] 2021-02-21 18:03:44,162 >>	LOGLOSS: 0.435702253086414
+[INFO] 2021-02-21 18:03:44,163 >>	data size: 891
+[INFO] 2021-02-21 18:03:44,163 >>	correct predictions: 739
+[INFO] 2021-02-21 18:03:44,164 >>	
+[INFO] 2021-02-21 18:04:09,757 >>	=== NN KERAS MODEL ===
+[INFO] 2021-02-21 18:04:09,757 >>	PARAMS: {'model_name': 'with_Embarked_C, with_Pclass_1, dropout:0.2, epochs: 10, learning_rate:0.001'}
+[INFO] 2021-02-21 18:04:16,253 >>	ACCURACY: 0.8170594837261503
+[INFO] 2021-02-21 18:04:16,254 >>	LOGLOSS: 0.44094056199361203
+[INFO] 2021-02-21 18:04:16,254 >>	data size: 891
+[INFO] 2021-02-21 18:04:16,255 >>	correct predictions: 728
+[INFO] 2021-02-21 18:04:16,256 >>	
+[INFO] 2021-02-21 18:04:49,209 >>	=== NN KERAS MODEL ===
+[INFO] 2021-02-21 18:04:49,211 >>	PARAMS: {'model_name': 'with_Embarked_C, with_Pclass_1, dropout:0.2, epochs: 10, learning_rate:0.001'}
+[INFO] 2021-02-21 18:04:58,439 >>	ACCURACY: 0.8170594837261503
+[INFO] 2021-02-21 18:04:58,439 >>	LOGLOSS: 0.44648035158167776
+[INFO] 2021-02-21 18:04:58,440 >>	data size: 891
+[INFO] 2021-02-21 18:04:58,441 >>	correct predictions: 728
+[INFO] 2021-02-21 18:04:58,442 >>	
+[INFO] 2021-02-21 18:06:06,188 >>	ACCURACY: 0.8125701459034792
+[INFO] 2021-02-21 18:06:06,190 >>	LOGLOSS: 0.45285030852312874
+[INFO] 2021-02-21 18:06:06,192 >>	data size: 891
+[INFO] 2021-02-21 18:06:06,194 >>	correct predictions: 724
+[INFO] 2021-02-21 18:06:06,197 >>	
+[INFO] 2021-02-21 18:10:44,322 >>	=== NN KERAS MODEL ===
+[INFO] 2021-02-21 18:10:44,323 >>	PARAMS: {'model_name': 'with_Embarked_C, with_Pclass_1, dropout:0.2, epochs: 10, learning_rate:0.001'}
+[INFO] 2021-02-21 18:10:50,628 >>	ACCURACY: 0.8148148148148148
+[INFO] 2021-02-21 18:10:50,629 >>	LOGLOSS: 0.44002760249689404
+[INFO] 2021-02-21 18:10:50,629 >>	data size: 891
+[INFO] 2021-02-21 18:10:50,630 >>	correct predictions: 726
+[INFO] 2021-02-21 18:10:50,631 >>	
+[INFO] 2021-02-21 18:11:28,302 >>	=== NN KERAS MODEL ===
+[INFO] 2021-02-21 18:11:28,306 >>	PARAMS: {'model_name': 'with_Embarked_C, with_Pclass_1, dropout:0.2, epochs: 10, learning_rate:0.001'}
+[INFO] 2021-02-21 18:11:34,591 >>	ACCURACY: 0.813692480359147
+[INFO] 2021-02-21 18:11:34,591 >>	LOGLOSS: 0.44471515631736974
+[INFO] 2021-02-21 18:11:34,592 >>	data size: 891
+[INFO] 2021-02-21 18:11:34,592 >>	correct predictions: 725
+[INFO] 2021-02-21 18:11:34,593 >>	
+[INFO] 2021-02-21 18:13:48,841 >>	=== NN KERAS MODEL ===
+[INFO] 2021-02-21 18:13:48,843 >>	PARAMS: {'model_name': 'with_Embarked_C, with_Pclass_1, dropout:0.2, epochs: 10, learning_rate:0.001'}
+[INFO] 2021-02-21 18:13:55,239 >>	ACCURACY: 0.8013468013468014
+[INFO] 2021-02-21 18:13:55,239 >>	LOGLOSS: 0.4471987840193235
+[INFO] 2021-02-21 18:13:55,240 >>	data size: 891
+[INFO] 2021-02-21 18:13:55,240 >>	correct predictions: 714
+[INFO] 2021-02-21 18:13:55,241 >>	
+[INFO] 2021-02-21 18:14:13,311 >>	=== NN KERAS MODEL ===
+[INFO] 2021-02-21 18:14:13,312 >>	PARAMS: {'model_name': 'with_Embarked_C, with_Pclass_1, dropout:0.2, epochs: 10, learning_rate:0.001'}
+[INFO] 2021-02-21 18:14:18,538 >>	ACCURACY: 0.8125701459034792
+[INFO] 2021-02-21 18:14:18,539 >>	LOGLOSS: 0.4445817786370541
+[INFO] 2021-02-21 18:14:18,539 >>	data size: 891
+[INFO] 2021-02-21 18:14:18,540 >>	correct predictions: 724
+[INFO] 2021-02-21 18:14:18,541 >>	
+=================================   WITH SibSp STANDARDIZED
+[INFO] 2021-02-21 19:05:00,014 >>	=== NN KERAS MODEL ===
+[INFO] 2021-02-21 19:05:00,015 >>	PARAMS: {'model_name': 'with_Embarked_C, with_Pclass_1, dropout:0.2, epochs: 10, learning_rate:0.001'}
+[INFO] 2021-02-21 19:05:05,701 >>	ACCURACY: 0.8035914702581369
+[INFO] 2021-02-21 19:05:05,701 >>	LOGLOSS: 0.44578156459882673
+[INFO] 2021-02-21 19:05:05,702 >>	data size: 891
+[INFO] 2021-02-21 19:05:05,702 >>	correct predictions: 716
+[INFO] 2021-02-21 19:05:05,703 >>	
+[INFO] 2021-02-21 19:05:19,450 >>	=== NN KERAS MODEL ===
+[INFO] 2021-02-21 19:05:19,451 >>	PARAMS: {'model_name': 'with_Embarked_C, with_Pclass_1, dropout:0.2, epochs: 10, learning_rate:0.001'}
+[INFO] 2021-02-21 19:05:25,068 >>	ACCURACY: 0.8024691358024691
+[INFO] 2021-02-21 19:05:25,068 >>	LOGLOSS: 0.45017344729390046
+[INFO] 2021-02-21 19:05:25,070 >>	data size: 891
+[INFO] 2021-02-21 19:05:25,070 >>	correct predictions: 715
+[INFO] 2021-02-21 19:05:25,071 >>
+=================================   WITH SibSp == 1 (WITHOUT original SibSp)
+[INFO] 2021-02-21 19:06:52,846 >>	=== NN KERAS MODEL ===
+[INFO] 2021-02-21 19:06:52,847 >>	PARAMS: {'model_name': 'with_Embarked_C, with_Pclass_1, dropout:0.2, epochs: 10, learning_rate:0.001'}
+[INFO] 2021-02-21 19:06:58,112 >>	ACCURACY: 0.8237934904601572
+[INFO] 2021-02-21 19:06:58,113 >>	LOGLOSS: 0.4426780781414941
+[INFO] 2021-02-21 19:06:58,113 >>	data size: 891
+[INFO] 2021-02-21 19:06:58,114 >>	correct predictions: 734
+[INFO] 2021-02-21 19:06:58,115 >>	
+[INFO] 2021-02-21 19:11:25,022 >>	=== NN KERAS MODEL ===
+[INFO] 2021-02-21 19:11:25,024 >>	PARAMS: {'model_name': 'with_Embarked_C, with_Pclass_1, dropout:0.2, epochs: 10, learning_rate:0.001'}
+[INFO] 2021-02-21 19:11:30,650 >>	ACCURACY: 0.7991021324354658
+[INFO] 2021-02-21 19:11:30,651 >>	LOGLOSS: 0.45852843777294344
+[INFO] 2021-02-21 19:11:30,651 >>	data size: 891
+[INFO] 2021-02-21 19:11:30,652 >>	correct predictions: 712
+[INFO] 2021-02-21 19:11:30,652 >>	
+[INFO] 2021-02-21 19:11:38,572 >>	=== NN KERAS MODEL ===
+[INFO] 2021-02-21 19:11:38,573 >>	PARAMS: {'model_name': 'with_Embarked_C, with_Pclass_1, dropout:0.2, epochs: 10, learning_rate:0.001'}
+[INFO] 2021-02-21 19:11:43,715 >>	ACCURACY: 0.8103254769921436
+[INFO] 2021-02-21 19:11:43,716 >>	LOGLOSS: 0.44411065976117664
+[INFO] 2021-02-21 19:11:43,716 >>	data size: 891
+[INFO] 2021-02-21 19:11:43,717 >>	correct predictions: 722
+[INFO] 2021-02-21 19:11:43,718 >>	
+[INFO] 2021-02-21 19:13:47,489 >>	=== NN KERAS MODEL ===
+[INFO] 2021-02-21 19:13:47,490 >>	PARAMS: {'model_name': 'with_Embarked_C, with_Pclass_1, dropout:0.2, epochs: 10, learning_rate:0.001'}
+[INFO] 2021-02-21 19:13:52,834 >>	ACCURACY: 0.8058361391694725
+[INFO] 2021-02-21 19:13:52,835 >>	LOGLOSS: 0.4470256037631738
+[INFO] 2021-02-21 19:13:52,836 >>	data size: 891
+[INFO] 2021-02-21 19:13:52,836 >>	correct predictions: 718
+[INFO] 2021-02-21 19:13:52,837 >>	
+[INFO] 2021-02-21 19:22:59,815 >>	=== NN KERAS MODEL ===
+[INFO] 2021-02-21 19:22:59,817 >>	PARAMS: {'model_name': 'with_Embarked_C, with_Pclass_1, dropout:0.2, epochs: 10, learning_rate:0.001'}
+[INFO] 2021-02-21 19:23:05,676 >>	ACCURACY: 0.8181818181818182
+[INFO] 2021-02-21 19:23:05,676 >>	LOGLOSS: 0.4446416405958827
+[INFO] 2021-02-21 19:23:05,677 >>	data size: 891
+[INFO] 2021-02-21 19:23:05,677 >>	correct predictions: 729
+[INFO] 2021-02-21 19:23:05,678 >>	
+=================================   WITH Parch STANDARDIZED
+[INFO] 2021-02-21 21:55:57,356 >>	=== NN KERAS MODEL ===
+[INFO] 2021-02-21 21:55:57,357 >>	PARAMS: {'model_name': 'with_Embarked_C, with_Pclass_1, dropout:0.2, epochs: 10, learning_rate:0.001'}
+[INFO] 2021-02-21 21:56:02,986 >>	ACCURACY: 0.8170594837261503
+[INFO] 2021-02-21 21:56:02,987 >>	LOGLOSS: 0.4433123973599613
+[INFO] 2021-02-21 21:56:02,987 >>	data size: 891
+[INFO] 2021-02-21 21:56:02,987 >>	correct predictions: 728
+[INFO] 2021-02-21 21:56:02,988 >>	
+[INFO] 2021-02-21 21:56:24,797 >>	=== NN KERAS MODEL ===
+[INFO] 2021-02-21 21:56:24,798 >>	PARAMS: {'model_name': 'with_Embarked_C, with_Pclass_1, dropout:0.2, epochs: 10, learning_rate:0.001'}
+[INFO] 2021-02-21 21:56:29,643 >>	ACCURACY: 0.8058361391694725
+[INFO] 2021-02-21 21:56:29,644 >>	LOGLOSS: 0.4480069690283626
+[INFO] 2021-02-21 21:56:29,645 >>	data size: 891
+[INFO] 2021-02-21 21:56:29,645 >>	correct predictions: 718
+[INFO] 2021-02-21 21:56:29,646 >>
+=================================   WITH Parch >= 1 (WITHOUT original Parch)
+[INFO] 2021-02-21 21:58:47,911 >>	=== NN KERAS MODEL ===
+[INFO] 2021-02-21 21:58:47,912 >>	PARAMS: {'model_name': 'with_Embarked_C, with_Pclass_1, dropout:0.2, epochs: 10, learning_rate:0.001'}
+[INFO] 2021-02-21 21:58:54,513 >>	ACCURACY: 0.8125701459034792
+[INFO] 2021-02-21 21:58:54,514 >>	LOGLOSS: 0.4406200777054644
+[INFO] 2021-02-21 21:58:54,515 >>	data size: 891
+[INFO] 2021-02-21 21:58:54,515 >>	correct predictions: 724
+[INFO] 2021-02-21 21:58:54,516 >>	
+[INFO] 2021-02-21 21:59:24,456 >>	=== NN KERAS MODEL ===
+[INFO] 2021-02-21 21:59:24,458 >>	PARAMS: {'model_name': 'with_Embarked_C, with_Pclass_1, dropout:0.2, epochs: 10, learning_rate:0.001'}
+[INFO] 2021-02-21 21:59:29,856 >>	ACCURACY: 0.8080808080808081
+[INFO] 2021-02-21 21:59:29,856 >>	LOGLOSS: 0.44483489749637484
+[INFO] 2021-02-21 21:59:29,857 >>	data size: 891
+[INFO] 2021-02-21 21:59:29,858 >>	correct predictions: 720
+[INFO] 2021-02-21 21:59:29,858 >>	
+[INFO] 2021-02-21 21:59:41,542 >>	=== NN KERAS MODEL ===
+[INFO] 2021-02-21 21:59:41,543 >>	PARAMS: {'model_name': 'with_Embarked_C, with_Pclass_1, dropout:0.2, epochs: 10, learning_rate:0.001'}
+[INFO] 2021-02-21 21:59:47,343 >>	ACCURACY: 0.8092031425364759
+[INFO] 2021-02-21 21:59:47,343 >>	LOGLOSS: 0.44943714961430475
+[INFO] 2021-02-21 21:59:47,344 >>	data size: 891
+[INFO] 2021-02-21 21:59:47,345 >>	correct predictions: 721
+[INFO] 2021-02-21 21:59:47,345 >>	
+[INFO] 2021-02-21 22:04:12,022 >>	=== NN KERAS MODEL ===
+[INFO] 2021-02-21 22:04:12,023 >>	PARAMS: {'model_name': 'with_Embarked_C, with_Pclass_1, dropout:0.2, epochs: 10, learning_rate:0.001'}
+[INFO] 2021-02-21 22:04:17,393 >>	ACCURACY: 0.8148148148148148
+[INFO] 2021-02-21 22:04:17,394 >>	LOGLOSS: 0.4391968556200013
+[INFO] 2021-02-21 22:04:17,395 >>	data size: 891
+[INFO] 2021-02-21 22:04:17,395 >>	correct predictions: 726
+[INFO] 2021-02-21 22:04:17,396 >>	
+[INFO] 2021-02-21 22:06:18,464 >>	=== NN KERAS MODEL ===
+[INFO] 2021-02-21 22:06:18,465 >>	PARAMS: {'model_name': 'with_Embarked_C, with_Pclass_1, dropout:0.2, epochs: 10, learning_rate:0.001'}
+[INFO] 2021-02-21 22:06:23,511 >>	ACCURACY: 0.8024691358024691
+[INFO] 2021-02-21 22:06:23,512 >>	LOGLOSS: 0.4456393865525605
+[INFO] 2021-02-21 22:06:23,513 >>	data size: 891
+[INFO] 2021-02-21 22:06:23,513 >>	correct predictions: 715
+[INFO] 2021-02-21 22:06:23,514 >>	
