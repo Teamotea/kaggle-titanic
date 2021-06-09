@@ -1,2 +1,2 @@
-Kaggle の Titanic コンペ<br>
+Kaggle の Titanic コンペティション<br>
 https://www.kaggle.com/c/titanic
